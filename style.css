@@ -1,0 +1,182 @@
+* {
+    /* border: 1px solid red; */
+}
+#navs {
+    margin-left: 200px;
+}
+
+#color {
+    background-color: rgb(255, 253, 239);
+}
+
+#btn1 {
+    background:linear-gradient(To right, red,  orange)
+}
+
+#bg {
+    background-image: url(../Images/Background/woman-shape-2.png);
+}
+
+#banner {
+    width: 296px;
+    height: 418px;
+}
+
+#girl {
+    background-image: url(../Images/Background/woman-shape-2.png);
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+
+#redbox {
+    background-image: url(../Images/Background/funfacts-style-bg.jpg);
+    background-size: 100% 100%;
+}
+
+#icons {
+  font-size: 50px;
+}
+
+#blog1 {
+    width: 266px;
+    z-index: 1;
+    position: absolute;
+    margin: 170px 0px 0px 70px;
+}
+#blog2img{
+    margin-top: 150px;
+}
+#blog2 {
+    width: 266px;
+    z-index: 1;
+    position: absolute;
+    margin: 570px 0px 0px 70px;
+}
+#blog3img{
+    margin-top: 190px;
+}
+#blog3 {
+    width: 266px;
+    z-index: 1;
+    position: absolute;
+    margin: 980px 0px 0px 70px;
+}
+#redbox1 {
+    margin-top: 200px;
+    background-image: url(../Images/Background/subscribe-wrap-bg.jpg);
+    background-size: 100% 100%;
+}
+
+#ralewayf {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+#raleway{
+    font-family: 'Raleway', sans-serif;
+}
+#roboto{
+    font-family: 'Roboto', sans-serif;
+}
+#ball1{
+    background-image: url(../Images/Background/vector-shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#ball2{
+    background-image: url(../Images/Background/vector-shape-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* height: 300px; */
+}
+#hover:hover{
+  color: red;
+}
+
+@media only screen and (min-width:768px) {
+    #whitebox {
+        width: 396px;
+    }
+    #banner {
+        width: 505px;
+        height: 715px;
+    }
+    #bg1 {
+        margin-left: 140px;
+    }
+    #ralewayf {
+        font-size: 65px;
+    }
+    #blog1 {
+        width: 266px;
+        z-index: 1;
+        position: absolute;
+        margin: 220px 0px 0px -280px;
+    }
+    #blog2img{
+        margin-top: 0px;
+    }
+    #blog2 {
+        width: 266px;
+        z-index: 1;
+        position: absolute;
+        margin: 220px 0px 0px 420px;
+    }
+    #blog3img{
+        margin-top: 240px;
+    }
+    #blog3 {
+        width: 266px;
+        z-index: 1;
+        position: absolute;
+        margin: 750px 0px 0px 80px;
+    }
+    #redbox1{
+        margin-top: 250px;
+    }
+    #ball2{
+        background-position: left;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    #inp1 {
+        margin-left: 350px;
+    }
+    
+    #bg1 {
+        margin-left: 200px;
+    }
+    #ralewayf {
+        font-size: 60px;
+    }
+    #div1st{
+        margin-top: 250px;
+    }
+    #icon2{
+        margin-top: 150px;
+    }
+    #blog1 {
+        width: 266px;
+        z-index: 1;
+        position: absolute;
+        margin: 220px 0px 0px -780px;
+    }
+    #blog2img{
+        margin-top: 0px;
+    }
+    #blog2 {
+        width: 266px;
+        z-index: 1;
+        position: absolute;
+        margin: 220px 0px 0px 100px;
+    }
+    #blog3img{
+        margin-top: 0px;
+    }
+    #blog3 {
+        width: 266px;
+        z-index: 1;
+        position: absolute;
+        margin: 220px 0px 0px 920px;
+    }
+}

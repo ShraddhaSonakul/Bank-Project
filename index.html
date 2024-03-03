@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Haiper - Banking Finance and Payment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="Images/Illustration/icon.png">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <section class="container-fluid m-0 p-0">
+
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img src="Images/Illustration/black-logo.png" alt="image not found" id="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0" id="navs">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-lg-4 active" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false" id="hover" onmouseover="a1()" onmouseout="a2()">
+                      Home
+                    </a>
+                    <ul class="dropdown-menu" id="drop1">
+                      <li><a class="dropdown-item" href="#">Home Demo-1</a></li>
+                      <li><a class="dropdown-item" href="#">Home Demo-2</a></li>
+                      <li><a class="dropdown-item" href="#">Home Demo-3</a></li>
+                      <li><a class="dropdown-item" href="#">Home Demo-4</a></li>
+                      <li><a class="dropdown-item" href="#">Home Demo-5</a></li>
+                      <li><a class="dropdown-item" href="#">Home Demo-6</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-lg-2 active" href="#" id="hover">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-lg-4 active" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false" id="hover" onmouseover="b1()" onmouseout="b2()">
+                      Features
+                    </a>
+                    <ul class="dropdown-menu" id="drop2">
+                      <li><a class="dropdown-item" href="#">Features style 1</a></li>
+                      <li><a class="dropdown-item" href="#">Features style 2</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-lg-4 active" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false" id="hover" onmouseover="c1()" onmouseout="c2()">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu" id="drop3">
+                      <li><a class="dropdown-item" href="#">About Us</a></li>
+                      <li><a class="dropdown-item" href="#">Team</a></li>
+                      <li><a class="dropdown-item" href="#">Pricing</a></li>
+                      <li><a class="dropdown-item" href="#">FAQ</a></li>
+                      <li><a class="dropdown-item" href="#">Signup</a></li>
+                      <li><a class="dropdown-item" href="#">Login</a></li>
+                      <li><a class="dropdown-item" href="#">404 Error Page</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-lg-4 active" href="#" id="hover">Pricing</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-lg-4 active" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false" id="hover" onmouseover="d1()" onmouseout="d2()">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu" id="drop4">
+                      <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                      <li><a class="dropdown-item" href="#">Blog Right Sidebar</a></li>
+                      <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-lg-4 active" href="#" id="hover">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ps-lg-4 active text-success" href="#"><i class="bi bi-person-fill-up"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" id="hover">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section> <!--end of header-->
+
+    <section class="container-fluid">
+      <div class="row" id="color">
+        <div class="col-12 col-lg-6" id="div1st">
+          <h2 class="pt-5" id="ralewayf" data-aos="fade-up" data-aos-duration="1000">Easy, fee-free banking for entrepreneurs</h2>
+          <p class="pt-3" id="roboto" data-aos="fade-up" data-aos-duration="2000">Get the financial tools and insights to start, build, and grow your business.</p>
+          <button type="button" class="btn text-white px-4" id="btn1" data-aos="fade-up" data-aos-duration="3000">GET STARTED</button>
+          <a href="#" class="text-dark" id="roboto" data-aos="fade-up" data-aos-duration="3000">DISCOVER MORE ></a>
+          <div class="d-none d-lg-block" id="icon2">
+            <a href="#" class="text-decoration-none text-black me-5"><i
+                class="bi bi-person-fill border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> Over 10 million
+              customers</a>
+            <a href="#" class="text-decoration-none text-black"><i
+                class="bi bi-gear-wide border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> FCA regulated</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6" id="girl">
+          <div id="bg1">
+            <img src="Images/Illustration/banner-woman.png" alt="image not found" class="img-fluid" id="banner" data-aos="fade-down" data-aos-duration="2000">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid my-5">
+      <div class="row py-4">
+        <div class="col-6 col-md-3 col-lg-2 py-3">
+          <img src="Images/Illustration/partner1.png" alt="image not found" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 py-3">
+          <img src="Images/Illustration/partner2.png" alt="image not found" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 py-3">
+          <img src="Images/Illustration/partner3.png" alt="image not found" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 py-3">
+          <img src="Images/Illustration/partner4.png" alt="image not found" class="img-fluid">
+        </div>
+        <div class="col-6 col-lg-2 py-3 text-md-end text-lg-start pe-md-5 pe-lg-0">
+          <img src="Images/Illustration/partner5.png" alt="image not found" class="img-fluid">
+        </div>
+        <div class="col-6 col-lg-2 py-3">
+          <img src="Images/Illustration/partner6.png" alt="image not found" class="img-fluid">
+        </div>
+      </div>
+    </section> <!--end og partners-->
+
+    <section class="container-fliud">
+      <div class="row m-0 p-0 bg-dark" id="ball1">
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-danger pt-5" id="roboto">About Us</p>
+              <h2 class="text-white py-3" id="raleway">Committed to helping our costumers succeed</h2>
+              <p class="text-white" id="roboto">There are many variations of passages of Lorem Ipsum available, but the
+                majority
+                have
+                suffered alteration in some form, by injected humour, or words which don't look even slightly
+                believable. If
+                you are going to use a passage of Lorem Ipsum randomised</p>
+            </div>
+            <div class="col-12 col-md-6 py-4" id="roboto">
+              <a href="#" class="text-decoration-none text-white"><i
+                  class="bi bi-check-lg border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> Free plan
+                available</a>
+            </div>
+            <div class="col-12 col-md-6 py-4">
+              <a href="#" class="text-decoration-none text-white"><i
+                  class="bi bi-check-lg border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> 100%
+                transparent costs</a>
+            </div>
+            <div class="col-12 col-md-6 py-4">
+              <a href="#" class="text-decoration-none text-white"><i
+                  class="bi bi-check-lg border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> Full data
+                privacy compliance</a>
+            </div>
+            <div class="col-12 col-md-6 py-4">
+              <a href="#" class="text-decoration-none text-white"><i
+                  class="bi bi-check-lg border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i>
+                Commitment-free</a>
+            </div>
+            <div class="col-12 pb-3">
+              <a href="#" class="text-danger" id="roboto">SIGN UP ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-lg-5 pt-lg-5">
+          <div class="text-white pb-3" id="roboto">
+            <p>“Dear Customers, we are thrilled you chose to purchase the Tryo from us. We are
+              working hard to build
+              even
+              higher-quality products for our customers. We would love to hear your thoughts and opinion. Please go Tryo
+              to share with us your feedback. Thank you.”</p>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img src="Images/Illustration/user.png" alt="image not found" class="rounde">
+            </div>
+            <div class="text-white ms-3 mb-4">
+              <p id="raleway">Alex Smith</p>
+              <p id="roboto">Founder & CEO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!--end of about us-->
+
+    <section class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <img src="Images/Illustration/flexibility.png" alt="image not found" class="img-fluid" data-aos="fade-down" data-aos-duration="2000">
+        </div>
+        <div class="col-12 col-lg-6 my-3 my-lg-auto">
+          <p class="text-danger" id="roboto">FLEXIBILITY</p>
+          <h2 id="raleway">To give you the power to make things happen</h2>
+          <div class="row" id="raleway">
+            <div class="col-12 col-md-5 py-3x px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i
+                  class="bi bi-check-lg border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> Easy
+                transfers</a>
+            </div>
+            <div class="col-12 col-md-5 py-3x px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i
+                  class="bi bi-check-lg border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> A powerful
+                open API</a>
+            </div>
+            <div class="col-12 col-md-5 py-3x px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i
+                  class="bi bi-check-lg border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> Business
+                without borders</a>
+            </div>
+            <div class="col-12 col-md-5 py-3x px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i
+                  class="bi bi-check-lg border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> Affiliates and
+                partnerships</a>
+            </div>
+            <div class="col-12 col-md-5 py-3x px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i
+                  class="bi bi-check-lg border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> International
+                Payments</a>
+            </div>
+            <div class="col-12 col-md-5 py-3x px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i
+                  class="bi bi-check-lg border border-0 rounded-5 bg-white py-1 px-2 text-danger"></i> Automated
+                accounting</a>
+            </div>
+          </div>
+          <p id="roboto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration
+            in some form, by injected humour, or words which don't look even slightly believable. If you are going to
+            use a passage of Lorem Ipsum randomised</p>
+        </div>
+      </div>
+    </section> <!-- end of FLEXIBILITY-->
+
+    <section class="container">
+      <div class="row y-4 justify-content-center rounded-4" id="redbox">
+        <div class="col-12 py-5">
+          <div class="row text-center text-white" id="roboto">
+            <div class="col-6 col-md-3">
+              <h2>180K</h2>
+              <p>Downloaded</p>
+            </div>
+            <div class="col-6 col-md-3">
+              <h2>20K</h2>
+              <p>Feedback</p>
+            </div>
+            <div class="col-6 col-md-3">
+              <h2>500+</h2>
+              <p>Workers</p>
+            </div>
+            <div class="col-6 col-md-3">
+              <h2>70+</h2>
+              <p>Contributers</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-8 border border-white rounded-2 d-md-flex text-center mb-5">
+          <div class="text-white text-start p-3">
+            <h4 id="raleway">Have any questions about us?</h4>
+            <p id="roboto">Don't hesitate to contact us</p>
+          </div>
+          <div class="my-auto" id="inp1">
+            <input type="button" value="CONTACT US" class="rounded-1 text-white bg-dark border-0 p-2 px-3 my-3">
+          </div>
+        </div>
+      </div>
+    </section> <!-- end of redbox1-->
+
+    <section class="container-fluid">
+      <div class="row justify-content-center bg-light my-3">
+        <div class="col-10 col-md-11">
+          <p class="text-danger" id="roboto">Security</p>
+          <h2 id="raleway">We show our value by serving faithfully</h2>
+        </div>
+        <div class="row justify-content-around my-3">
+          <div class="col-10 col-md-5 col-lg-3 bg-white border-start border-danger">
+            <div id="">
+              <i class="bi bi-piggy-bank text-danger" id="icons"></i>
+            </div>
+            <div>
+              <h3 id="raleway">Transparent Pricing</h3>
+              <p id="roboto">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+            </div>
+            <div>
+              <a href="#" class="text-danger" id="roboto">READ MORE ></a>
+            </div>
+          </div>
+          <div class="col-10 col-md-5 col-lg-3 bg-white border-start border-danger">
+            <div>
+              <i class="bi bi-lock-fill text-danger" id="icons"></i>
+            </div>
+            <div>
+              <h3 id="raleway">Fully Encrypted</h3>
+              <p id="roboto">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+            </div>
+            <div>
+              <a href="#" class="text-danger" id="roboto">READ MORE ></a>
+            </div>
+          </div>
+          <div class="col-10 col-md-5 col-lg-3 bg-white mt-md-4 mt-lg-0 border-start border-danger">
+            <div>
+              <i class="bi bi-shield-check text-danger" id="icons"></i>
+            </div>
+            <div>
+              <h3 id="raleway">Safe and Secure</h3>
+              <p id="roboto">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+            </div>
+            <div>
+              <a href="#" class="text-danger" id="roboto">READ MORE ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!--end of 3div-->
+
+    <section class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <p class="text-danger" id="roboto">Our Awesome Features</p>
+          <h2 id="raleway">Stay ahead of the curve, ready for everything</h2>
+          <div class="row" id="roboto">
+            <div class="col-12 col-md-5 py-4 px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i class="bi bi-check-circle-fill"></i> Deadline
+                reminders</a>
+            </div>
+            <div class="col-12 col-md-5 py-4 px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i class="bi bi-check-circle-fill"></i> Drag and drop
+                functionality</a>
+            </div>
+            <div class="col-12 col-md-5 py-4 px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i class="bi bi-check-circle-fill"></i> Information
+                retrieval</a>
+            </div>
+            <div class="col-12 col-md-5 py-4 px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i class="bi bi-check-circle-fill"></i> Simple
+                dashboard</a>
+            </div>
+            <div class="col-12 col-md-5 py-4 px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i class="bi bi-check-circle-fill"></i> Email
+                notifications</a>
+            </div>
+            <div class="col-12 col-md-5 py-4 px-5 my-2 mx-1" id="color">
+              <a href="#" class="text-decoration-none text-black"><i class="bi bi-check-circle-fill"></i> Incredible
+                infrastructure</a>
+            </div>
+          </div>
+          <p id="roboto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration
+            in some form, by injected humour, or words which don't look even slightly believable. If you are going to
+            use a passage of Lorem Ipsum randomised</p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="Images/Illustration/awesome-features.png" alt="image not found" class="img-fluid" data-aos="fade-down" data-aos-duration="2000">
+        </div>
+      </div>
+    </section> <!--end of Our Awesome Features-->
+
+    <section class="container-fliud">
+      <div class="row justify-content-center bg-dark py-5 m-0" id="ball2">
+        <div class="col-11 col-md-12 col-lg-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner text-white text-center py-5">
+              <div class="carousel-item active">
+                <p id="roboto">But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                  pain was
+                  born and I will give you a complete acount of the system, and expound the actual teachings of the
+                  great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or
+                  avoids pleasure itself</p>
+                <div class="d-flex justify-content-center py-3">
+                  <div>
+                    <img src="Images/Illustration/user.png" class="d-block me-3" alt="image not found">
+                  </div>
+                  <div>
+                    <h5 id="raleway">Alex Smith</h5>
+                    <p id="roboto">Founder & CEO</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <p id="roboto">But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                  pain was
+                  born and I will give you a complete acount of the system, and expound the actual teachings of the
+                  great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or
+                  avoids pleasure itself</p>
+                <div class="d-flex justify-content-center py-3">
+                  <div>
+                    <img src="Images/Illustration/user.png" class="d-block me-3" alt="image not found">
+                  </div>
+                  <div>
+                    <h5 id="raleway">Steven Smith</h5>
+                    <p id="roboto">Web Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <p id="roboto">But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                  pain was
+                  born and I will give you a complete acount of the system, and expound the actual teachings of the
+                  great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or
+                  avoids pleasure itself</p>
+                <div class="d-flex justify-content-center py-3">
+                  <div>
+                    <img src="Images/Illustration/user.png" class="d-block me-3" alt="image not found">
+                  </div>
+                  <div>
+                    <h5 id="raleway">Sarah Taylor</h5>
+                    <p id="roboto">Co-Founder</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section> <!--end of carousal-->
+
+    <section class="container">
+      <div class="row py-3">
+        <div class="col-10">
+          <p class="text-danger" id="roboto">Our Blog</p>
+          <h2 id="raleway">We make banking faster & easier, so you can do more</h2>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-10 col-md-5 col-lg-3 pb-3">
+            <img src="Images/Illustration/blog1.jpg" alt="image not found" class="img-fluid rounded-2">
+          </div>
+          <div class="pt-4 px-4 py-3 rounded-3 border bg-white" id="blog1" data-aos="fade-up" data-aos-duration="2000">
+            <h2 id="raleway">Protect Your Works from Cyber Attacks</h2>
+            <p id="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorem</p>
+            <a href="#" class="text-danger" id="roboto">READ MORE ></a>
+          </div>
+          <div class="col-10 col-md-5 col-lg-3 pb-3" id="blog2img">
+            <img src="Images/Illustration/blog2.jpg" alt="image not found" class="img-fluid rounded-2">
+          </div>
+          <div class="pt-4 px-4 py-3 rounded-3 border bg-white" id="blog2" data-aos="fade-up" data-aos-duration="2000">
+            <h2 id="raleway">The security risks of chaging packasge owners</h2>
+            <p id="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorem</p>
+            <a href="#" class="text-danger" id="roboto">READ MORE ></a>
+          </div>
+          <div class="col-10 col-md-5 col-lg-3 pb-3" id="blog3img">
+            <img src="Images/Illustration/blog3.jpg" alt="image not found" class="img-fluid rounded-2">
+          </div>
+          <div class="pt-4 px-4 py-3 rounded-3 border bg-white" id="blog3" data-aos="fade-up" data-aos-duration="2000">
+            <h2 id="raleway">10 Tips To Reduce Your Card Processing Costs</h2>
+            <p id="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorem</p>
+            <a href="#" class="text-danger" id="roboto">READ MORE ></a>
+          </div>
+        </div>
+      </div>
+    </section> <!--end of blog-->
+
+    <section class="container">
+      <div class="row rounded-4 p-lg-5" id="redbox1">
+        <div class="col-8 border border-white rounded-4 d-md-flex text-center m-5 p-lg-4 mx-auto">
+          <div class="text-white text-start p-2 p-lg-5">
+            <h4 id="raleway">Subscribe our nesletter</h4>
+            <p id="roboto">Don't miss any update on new promotions</p>
+          </div>
+          <div class="my-auto text-start" id="">
+            <input type="email" placeholder="Enter your email address" class="py-2 border-0 rounded-1 mb-3 oapcity-25">
+            <input type="button" value="SUBSCRIBE NOW" class="rounded-1 text-white bg-dark border-0 p-2 px-3 mb-3">
+          </div>
+        </div>
+      </div>
+    </section> <!--end of redbox1-->
+
+    <footer class="container-fluid">
+      <div class="row bg-dark mt-5">
+        <div class="col-12 col-md-6 col-lg-3">
+          <img src="Images/Illustration/logo (1).png" alt="image not found" class="img-fluid my-4">
+          <p class="text-white" id="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati porro
+            quam eligendi laborum corporis aut voluptatem. Harum dolore optio minima eaque, illum dolores, ipsa enim
+            vero commodi, impedit iusto labore.</p>
+          <a href="#"><i class="bi bi-facebook text-danger border border-0 rounded-5 bg-white py-1 px-2 mx-1"></i></a>
+          <a href="#"><i class="bi bi-twitter text-danger border border-0 rounded-5 bg-white py-1 px-2 mx-1"></i></a>
+          <a href="#"><i class="bi bi-instagram text-danger border border-0 rounded-5 bg-white py-1 px-2 mx-1"></i></a>
+          <a href="#"><i class="bi bi-linkedin text-danger border border-0 rounded-5 bg-white py-1 px-2 mx-1"></i></a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-white mt-4">
+          <h2 id="raleway">Company</h2>
+          <p id="roboto">About Us</p>
+          <p id="roboto">Services</p>
+          <p id="roboto">Features</p>
+          <p id="roboto">Our Pricing</p>
+          <p id="roboto">Latest News</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-white mt-4">
+          <h2 id="raleway">Support</h2>
+          <p id="roboto">FAQ's</p>
+          <p id="roboto">Privacy</p>
+          <p id="roboto">Terms & Conditions</p>
+          <p id="roboto">Community</p>
+          <p id="roboto">Contact Us</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-white mt-4">
+          <h2 id="raleway">Address</h2>
+          <p id="roboto"><b>Location:</b> 27 Division St, New York,
+            NY 10002, USA</p>
+          <p id="roboto"><b>Email:</b> info@haiper.com</p>
+          <p id="roboto"><b>Phone:</b>+ (321) 984 754</p>
+          <p id="roboto"><b>Fax:</b>+1-212-9876543</p>
+        </div>
+        <hr class="text-white">
+        <div class="col-12 text-center">
+          <p class="text-white" id="roboto">&copy: 2023 Haiper - All Rights Reserved <span
+              class="text-danger">EnvyTheme.com</span></p>
+        </div>
+      </div>
+    </footer><!--end of footer-->
+
+  </section>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+    <script src="Js/script.js"></script>
+</body>
+
+</html>
